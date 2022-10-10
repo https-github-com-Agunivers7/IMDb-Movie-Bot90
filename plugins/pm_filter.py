@@ -516,7 +516,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Status', url='https://t.me/Apex_legends_AG'),
             InlineKeyboardButton('Source', callback_data='source')
             ],[
-            InlineKeyboardButton('How to Use', callback_data='help')
+            InlineKeyboardButton('Creator', url='https://agunivers7.github.io/' )
             ],[
             InlineKeyboardButton('« Back', callback_data='start'),
             InlineKeyboardButton('Close ', callback_data='close_data')
