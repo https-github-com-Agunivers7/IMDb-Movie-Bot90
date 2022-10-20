@@ -37,8 +37,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Dormamu")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Anurag_files')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL','-1001683079938')'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Apex_legends_AG')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL','-1001683079938'))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Agunivers_backup')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
