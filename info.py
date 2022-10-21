@@ -34,11 +34,11 @@ AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Aadhi:42426840@cluster0.h9rky.mongodb.net/?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Dormamu")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Anurag_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Dormamu_files')
 
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL','-1001683079938'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Apex_legends_AG')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Agunivers_backup')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
